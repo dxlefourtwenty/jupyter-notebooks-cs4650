@@ -1,0 +1,17 @@
+8	{"example": "contents", "count": 757}
+9	{"example": "gutenberg", "count": 478}
+7	{"example": "project", "count": 1622}
+6	{"example": "alices", "count": 1988}
+40	{"example": "importantunimportantunimportantimportant", "count": 1}
+5	{"example": "start", "count": 3330}
+10	{"example": "adventures", "count": 207}
+11	{"example": "caterpillar", "count": 141}
+12	{"example": "illustration", "count": 49}
+13	{"example": "croquetground", "count": 23}
+14	{"example": "disappointment", "count": 16}
+15	{"example": "waistcoatpocket", "count": 2}
+16	{"example": "thingseverything", "count": 1}
+18	{"example": "arithmeticambition", "count": 1}
+19	{"example": "adventuresbeginning", "count": 1}
+27	{"example": "meanstomakeanythingprettier", "count": 1}
+4	{"example": "down", "count": 5714}
