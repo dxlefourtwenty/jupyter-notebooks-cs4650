@@ -1,0 +1,109 @@
+{
+  "binary_accident": {
+    "task_name": "binary_accident",
+    "labels": [
+      "No Accident",
+      "Accident"
+    ],
+    "class_counts": {
+      "0": 36201,
+      "1": 2558
+    },
+    "majority_baseline_accuracy": 0.9340024252431693,
+    "cv_accuracy": 0.7991435507040006,
+    "cv_balanced_accuracy": 0.7527766151993573,
+    "cv_macro_f1": 0.598589209057802,
+    "holdout_accuracy": 0.7934726522187823,
+    "holdout_balanced_accuracy": 0.7605684564917128,
+    "holdout_macro_f1": 0.5972377104697474,
+    "confusion_matrix": [
+      [
+        5781,
+        1459
+      ],
+      [
+        142,
+        370
+      ]
+    ],
+    "classification_report": {
+      "No Accident": {
+        "precision": 0.9760256626709438,
+        "recall": 0.7984806629834255,
+        "f1-score": 0.8783711919775127,
+        "support": 7240.0
+      },
+      "Accident": {
+        "precision": 0.20229633679606343,
+        "recall": 0.72265625,
+        "f1-score": 0.31610422896198204,
+        "support": 512.0
+      },
+      "accuracy": 0.7934726522187823,
+      "macro avg": {
+        "precision": 0.5891609997335037,
+        "recall": 0.7605684564917128,
+        "f1-score": 0.5972377104697474,
+        "support": 7752.0
+      },
+      "weighted avg": {
+        "precision": 0.9249227969784852,
+        "recall": 0.7934726522187823,
+        "f1-score": 0.8412348806947532,
+        "support": 7752.0
+      }
+    },
+    "top_features": [
+      {
+        "feature": "Length",
+        "mean_importance": 0.08252427917817687,
+        "std_importance": 0.007707061918473183
+      },
+      {
+        "feature": "AFZ",
+        "mean_importance": 0.02401696305248624,
+        "std_importance": 0.0007754584650344416
+      },
+      {
+        "feature": "MFZ",
+        "mean_importance": 0.013002309219613328,
+        "std_importance": 0.00031795084189941217
+      },
+      {
+        "feature": "End",
+        "mean_importance": 0.009515927140884051,
+        "std_importance": 0.003760646926354139
+      },
+      {
+        "feature": "NFZ",
+        "mean_importance": 0.00904760877071833,
+        "std_importance": 0.0007023537574122643
+      },
+      {
+        "feature": "LenAdj",
+        "mean_importance": 0.007386373446132655,
+        "std_importance": 0.002257287259396847
+      },
+      {
+        "feature": "StartAdj",
+        "mean_importance": 0.0050270847720995104,
+        "std_importance": 0.003360380229133473
+      },
+      {
+        "feature": "p1s",
+        "mean_importance": 0.004275401415745938,
+        "std_importance": 0.002751719851195714
+      },
+      {
+        "feature": "idx",
+        "mean_importance": 0.004116453729281833,
+        "std_importance": 0.0025300295234643717
+      },
+      {
+        "feature": "WS",
+        "mean_importance": 0.0027196995856354268,
+        "std_importance": 0.0033817088879064035
+      }
+    ]
+  }
+}

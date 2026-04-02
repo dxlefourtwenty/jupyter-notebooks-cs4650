@@ -1,0 +1,231 @@
+{
+  "three_class": {
+    "task_name": "three_class",
+    "labels": [
+      "No Accident",
+      "Type 1",
+      "Type 2"
+    ],
+    "class_counts": {
+      "0": 36201,
+      "1": 1867,
+      "2": 691
+    },
+    "majority_baseline_accuracy": 0.9340024252431693,
+    "cv_accuracy": 0.7409119786001845,
+    "cv_balanced_accuracy": 0.5053197435050605,
+    "cv_macro_f1": 0.39295156676353876,
+    "holdout_accuracy": 0.7334881320949432,
+    "holdout_balanced_accuracy": 0.496676333640627,
+    "holdout_macro_f1": 0.39218806590204597,
+    "confusion_matrix": [
+      [
+        5464,
+        747,
+        1029
+      ],
+      [
+        98,
+        191,
+        85
+      ],
+      [
+        42,
+        65,
+        31
+      ]
+    ],
+    "classification_report": {
+      "No Accident": {
+        "precision": 0.9750178443968593,
+        "recall": 0.7546961325966851,
+        "f1-score": 0.8508252880722517,
+        "support": 7240.0
+      },
+      "Type 1": {
+        "precision": 0.19042871385842472,
+        "recall": 0.5106951871657754,
+        "f1-score": 0.2774146695715323,
+        "support": 374.0
+      },
+      "Type 2": {
+        "precision": 0.027074235807860263,
+        "recall": 0.2246376811594203,
+        "f1-score": 0.048324240062353856,
+        "support": 138.0
+      },
+      "accuracy": 0.7334881320949432,
+      "macro avg": {
+        "precision": 0.39750693135438137,
+        "recall": 0.496676333640627,
+        "f1-score": 0.39218806590204597,
+        "support": 7752.0
+      },
+      "weighted avg": {
+        "precision": 0.9202897029099326,
+        "recall": 0.7334881320949432,
+        "f1-score": 0.8088747313198479,
+        "support": 7752.0
+      }
+    },
+    "top_features": [
+      {
+        "feature": "Length",
+        "mean_importance": 0.03822063879672231,
+        "std_importance": 0.007921631371351767
+      },
+      {
+        "feature": "AFZ",
+        "mean_importance": 0.035874539648366635,
+        "std_importance": 0.0017882393354193289
+      },
+      {
+        "feature": "Press",
+        "mean_importance": 0.010242153558589762,
+        "std_importance": 0.01459311068077862
+      },
+      {
+        "feature": "Base",
+        "mean_importance": 0.008730476045301434,
+        "std_importance": 0.005042576018935523
+      },
+      {
+        "feature": "Night",
+        "mean_importance": 0.008730476045301434,
+        "std_importance": 0.005042576018935523
+      },
+      {
+        "feature": "Comp",
+        "mean_importance": 0.008460795946065431,
+        "std_importance": 0.0034479403811357033
+      },
+      {
+        "feature": "StartAdj",
+        "mean_importance": 0.006890730509515136,
+        "std_importance": 0.0027487131926337565
+      },
+      {
+        "feature": "p1s",
+        "mean_importance": 0.005551336869850187,
+        "std_importance": 0.005238790522290179
+      },
+      {
+        "feature": "MFZ",
+        "mean_importance": 0.005415108254265633,
+        "std_importance": 0.001159200034153531
+      },
+      {
+        "feature": "Trans",
+        "mean_importance": 0.005395647991979896,
+        "std_importance": 0.006040534192221815
+      }
+    ]
+  },
+  "binary_accident": {
+    "task_name": "binary_accident",
+    "labels": [
+      "No Accident",
+      "Accident"
+    ],
+    "class_counts": {
+      "0": 36201,
+      "1": 2558
+    },
+    "majority_baseline_accuracy": 0.9340024252431693,
+    "cv_accuracy": 0.7991435507040006,
+    "cv_balanced_accuracy": 0.7527766151993573,
+    "cv_macro_f1": 0.598589209057802,
+    "holdout_accuracy": 0.7934726522187823,
+    "holdout_balanced_accuracy": 0.7605684564917128,
+    "holdout_macro_f1": 0.5972377104697474,
+    "confusion_matrix": [
+      [
+        5781,
+        1459
+      ],
+      [
+        142,
+        370
+      ]
+    ],
+    "classification_report": {
+      "No Accident": {
+        "precision": 0.9760256626709438,
+        "recall": 0.7984806629834255,
+        "f1-score": 0.8783711919775127,
+        "support": 7240.0
+      },
+      "Accident": {
+        "precision": 0.20229633679606343,
+        "recall": 0.72265625,
+        "f1-score": 0.31610422896198204,
+        "support": 512.0
+      },
+      "accuracy": 0.7934726522187823,
+      "macro avg": {
+        "precision": 0.5891609997335037,
+        "recall": 0.7605684564917128,
+        "f1-score": 0.5972377104697474,
+        "support": 7752.0
+      },
+      "weighted avg": {
+        "precision": 0.9249227969784852,
+        "recall": 0.7934726522187823,
+        "f1-score": 0.8412348806947532,
+        "support": 7752.0
+      }
+    },
+    "top_features": [
+      {
+        "feature": "Length",
+        "mean_importance": 0.08252427917817687,
+        "std_importance": 0.007707061918473183
+      },
+      {
+        "feature": "AFZ",
+        "mean_importance": 0.02401696305248624,
+        "std_importance": 0.0007754584650344416
+      },
+      {
+        "feature": "MFZ",
+        "mean_importance": 0.013002309219613328,
+        "std_importance": 0.00031795084189941217
+      },
+      {
+        "feature": "End",
+        "mean_importance": 0.009515927140884051,
+        "std_importance": 0.003760646926354139
+      },
+      {
+        "feature": "NFZ",
+        "mean_importance": 0.00904760877071833,
+        "std_importance": 0.0007023537574122643
+      },
+      {
+        "feature": "LenAdj",
+        "mean_importance": 0.007386373446132655,
+        "std_importance": 0.002257287259396847
+      },
+      {
+        "feature": "StartAdj",
+        "mean_importance": 0.0050270847720995104,
+        "std_importance": 0.003360380229133473
+      },
+      {
+        "feature": "p1s",
+        "mean_importance": 0.004275401415745938,
+        "std_importance": 0.002751719851195714
+      },
+      {
+        "feature": "idx",
+        "mean_importance": 0.004116453729281833,
+        "std_importance": 0.0025300295234643717
+      },
+      {
+        "feature": "WS",
+        "mean_importance": 0.0027196995856354268,
+        "std_importance": 0.0033817088879064035
+      }
+    ]
+  }
+}

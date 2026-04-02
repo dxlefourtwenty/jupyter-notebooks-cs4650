@@ -1,0 +1,109 @@
+{
+  "type1_vs_type2": {
+    "task_name": "type1_vs_type2",
+    "labels": [
+      "Type 1",
+      "Type 2"
+    ],
+    "class_counts": {
+      "0": 1867,
+      "1": 691
+    },
+    "majority_baseline_accuracy": 0.7298670836591087,
+    "cv_accuracy": 0.5512169765166341,
+    "cv_balanced_accuracy": 0.5412730005626566,
+    "cv_macro_f1": 0.5157035913600843,
+    "holdout_accuracy": 0.533203125,
+    "holdout_balanced_accuracy": 0.5067232426567465,
+    "holdout_macro_f1": 0.4900122112335013,
+    "confusion_matrix": [
+      [
+        211,
+        163
+      ],
+      [
+        76,
+        62
+      ]
+    ],
+    "classification_report": {
+      "Type 1": {
+        "precision": 0.735191637630662,
+        "recall": 0.5641711229946524,
+        "f1-score": 0.6384266263237519,
+        "support": 374.0
+      },
+      "Type 2": {
+        "precision": 0.27555555555555555,
+        "recall": 0.4492753623188406,
+        "f1-score": 0.3415977961432507,
+        "support": 138.0
+      },
+      "accuracy": 0.533203125,
+      "macro avg": {
+        "precision": 0.5053735965931088,
+        "recall": 0.5067232426567465,
+        "f1-score": 0.4900122112335013,
+        "support": 512.0
+      },
+      "weighted avg": {
+        "precision": 0.6113053498838559,
+        "recall": 0.533203125,
+        "f1-score": 0.5584219806891637,
+        "support": 512.0
+      }
+    },
+    "top_features": [
+      {
+        "feature": "AFZ",
+        "mean_importance": 0.022008447647833846,
+        "std_importance": 0.012061491563193317
+      },
+      {
+        "feature": "Comp",
+        "mean_importance": 0.009470665736650419,
+        "std_importance": 0.005032024362996671
+      },
+      {
+        "feature": "Start",
+        "mean_importance": 0.005024025420444877,
+        "std_importance": 0.003896477032258875
+      },
+      {
+        "feature": "MFZ",
+        "mean_importance": 0.0044640781213671375,
+        "std_importance": 0.0033115305660458214
+      },
+      {
+        "feature": "Length",
+        "mean_importance": 0.0030225528946756564,
+        "std_importance": 0.011245898120831774
+      },
+      {
+        "feature": "Trans",
+        "mean_importance": 0.002642796248934376,
+        "std_importance": 0.011650906123582211
+      },
+      {
+        "feature": "p1l",
+        "mean_importance": 0.00031388049290863583,
+        "std_importance": 0.007550988999727735
+      },
+      {
+        "feature": "MalAdj",
+        "mean_importance": 0.0,
+        "std_importance": 0.0
+      },
+      {
+        "feature": "Base",
+        "mean_importance": -0.0017263427109974361,
+        "std_importance": 0.006422534460163299
+      },
+      {
+        "feature": "Night",
+        "mean_importance": -0.0017263427109974361,
+        "std_importance": 0.006422534460163299
+      }
+    ]
+  }
+}
